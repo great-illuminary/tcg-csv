@@ -61,7 +61,7 @@ jobs:
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           nodetail: true
-          username: LorcanaDiscord
+          username: Github
           avatar_url: https://lorcana.codlab.eu/discord_avatar.png
           title: "The TCG Pricing library ${{ steps.read_version.outputs.version }} is available !"
           description: |
