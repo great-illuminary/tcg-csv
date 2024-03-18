@@ -1,5 +1,6 @@
 buildscript {
     apply from: gradle.dolbyio.files.modules
+    apply from: "./gradle/iosSimulatorList.gradle"
 
     dependencies {
         classpath dolbyio.nexus.gradlePlugin
