@@ -17,6 +17,7 @@ object RequestLoader {
 
     private val json = Json {
         ignoreUnknownKeys = true
+        coerceInputValues = true
     }
 
     suspend fun products(categoryId: Int, groupId: Int): List<Product> =
