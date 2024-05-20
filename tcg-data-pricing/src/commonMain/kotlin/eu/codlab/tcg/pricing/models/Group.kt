@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 data class Group(
     val groupId: Int,
     val name: String,
-    val abbreviation: String,
+    val abbreviation: String? = null,
     val isSupplemental: Boolean = false,
     val publishedOn: String,
     val modifiedOn: String,
